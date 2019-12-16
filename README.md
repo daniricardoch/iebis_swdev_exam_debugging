@@ -48,3 +48,12 @@ Scoring criteria:
 - 60%: Spot all the bugs
 - 20%: Fix all the bugs and push the proposed solution to your repository online
 - 20%: Explain the solved exercise in the README, in the best possible way
+
+## Solution
+
+I identidied 3 additional bugs. 
+
+1. The Switch was missing "breaks" after every case. Without the breaks, the code is faulty. 
+2. The random parameters set at 2 were limiting the code. This had to be switched to 3 in order to include all the options. 
+3. Stringbuffer was fualty. There was something wrong with this method and it wasn't allowing the code to function properly. I simply declared word as a string and added each letter to the word individually. 
+
